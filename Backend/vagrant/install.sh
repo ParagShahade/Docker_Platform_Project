@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# change time zone
+# change time zone . 
 cp /usr/share/zoneinfo/Europe/Paris /etc/localtime
 timedatectl set-timezone Asia/Shanghai
 rm /etc/yum.repos.d/CentOS-Base.repo
